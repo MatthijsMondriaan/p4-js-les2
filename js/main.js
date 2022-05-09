@@ -7,7 +7,11 @@ let html = '<div class="row">';
 for (let i = 0; i < 3; i++) {
     const object = data[i];
     
-    html += '<div class="item">'+object.title+'</div>';
+    html += '<div class="item">'
+    html += '<h4 class="title">'+object.title+'</h4>';
+    html += '<p class="description">'+object.description+'</p>';
+    html += '<img src="'+ object.image +'" alt="photo"></img>';
+    html += '</div>';
 }
 
 html + '</div>';
