@@ -4,7 +4,7 @@ const container = document.querySelector(".container");
 
 let html = '<div class="row">';
 
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 6; i++) {
     const object = data[i];
     
     html += '<div class="item">'
