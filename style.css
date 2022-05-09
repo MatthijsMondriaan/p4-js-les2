@@ -1,0 +1,16 @@
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #fefefe;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+    background-color: aquamarine;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
