@@ -33,5 +33,25 @@ const data = [
         title: "Title 7",
         description: "lorem ipsum",
         image: "https://picsum.photos/120"
+    },
+    {
+        title: "Title 8",
+        description: "lorem ipsum",
+        image: "https://picsum.photos/120"
+    },
+    {
+        title: "Title 9",
+        description: "lorem ipsum",
+        image: "https://picsum.photos/120"
+    },
+    {
+        title: "Title 10",
+        description: "lorem ipsum",
+        image: "https://picsum.photos/120"
+    },
+    {
+        title: "Title 11",
+        description: "lorem ipsum",
+        image: "https://picsum.photos/120"
     }
 ];
