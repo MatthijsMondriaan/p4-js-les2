@@ -13,4 +13,31 @@ html {
 .row {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 8px;
+}
+
+.item {
+    width: 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: beige;
+}
+
+.description {
+    height: 3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.title {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
 }
